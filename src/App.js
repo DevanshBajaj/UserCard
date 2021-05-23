@@ -1,15 +1,11 @@
 import React from 'react';
-import UserForm from './Components/UserForm';
-import './App.css';
+
+import AddUser from './components/Users/AddUser';
 
 function App() {
   return (
     <div>
-      <section id="user-form">
-        <UserForm/>
-      </section>
-      <section id="user">
-      </section>
+      <AddUser />
     </div>
   );
 }
