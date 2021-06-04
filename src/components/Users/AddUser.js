@@ -5,7 +5,7 @@ import Card from "../UI/Card";
 import classes from "./AddUser.module.css";
 import ErrorModal from "../UI/ErrorModal";
 
-import Wrapper from '../Helpers/Wrapper';
+import Wrapper from '../Helpers/Wrapper'
 
 const AddUser = (props) => {
 	const [enteredUsername, setEnteredUsername] = useState("");
